@@ -15,7 +15,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2021-11&adults=2&origin=STO" | jq -r '.' > availability11.json
-        curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2022-01&adults=2&origin=STO" | jq -r '.' > availability01.json
+        curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2022-01&adults=2&tags=All+destinations&origin=STO" | jq -r '.' > availability01.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
