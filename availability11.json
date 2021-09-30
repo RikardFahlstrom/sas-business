@@ -4,10 +4,6 @@
     "count": 24
   },
   {
-    "name": "Japan",
-    "count": 1
-  },
-  {
     "name": "Belgium",
     "count": 0
   },
@@ -53,6 +49,10 @@
   },
   {
     "name": "Italy",
+    "count": 0
+  },
+  {
+    "name": "Japan",
     "count": 0
   },
   {
