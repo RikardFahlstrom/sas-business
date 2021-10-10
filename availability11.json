@@ -1,10 +1,14 @@
 [
   {
     "name": "United States",
-    "count": 6
+    "count": 7
   },
   {
     "name": "Belgium",
+    "count": 0
+  },
+  {
+    "name": "China",
     "count": 0
   },
   {
