@@ -1,9 +1,5 @@
 [
   {
-    "name": "United States",
-    "count": 1
-  },
-  {
     "name": "Belgium",
     "count": 0
   },
@@ -105,6 +101,10 @@
   },
   {
     "name": "United Kingdom",
+    "count": 0
+  },
+  {
+    "name": "United States",
     "count": 0
   }
 ]
