@@ -1,5 +1,5 @@
 {
   "statusCode": 500,
-  "error": "Internal Server Error",
-  "message": "An internal server error occurred"
+  "message": "Internal server error",
+  "activityId": "4f55bc3e-4ca6-4895-9ce1-cb47a4ab2ed8"
 }
