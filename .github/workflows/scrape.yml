@@ -14,8 +14,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2022-06&adults=2&origin=STO" | jq -r '.' > availability2022_06.json
-        curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2022-03&adults=2&tags=All+destinations&origin=STO" | jq -r '.' > availability2022_03.json
+        curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2022-12&adults=2&origin=STO" | jq -r '.' > availability2022_12.json
+        curl -s "https://sasgrowth.azure-api.net/api/flights/available-dates/count?aggregationField=country&serviceClass=business&outDate=2022-12&adults=2&tags=All+destinations&origin=STO" | jq -r '.' > availability2022_12.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
