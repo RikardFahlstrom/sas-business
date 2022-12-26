@@ -1,7 +1,7 @@
 [
   {
     "name": "United States",
-    "count": 7
+    "count": 8
   },
   {
     "name": "Belgium",
@@ -49,6 +49,10 @@
   },
   {
     "name": "Italy",
+    "count": 0
+  },
+  {
+    "name": "Latvia",
     "count": 0
   },
   {
